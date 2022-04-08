@@ -1,0 +1,426 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+
+  font-family: customFont;
+  src: url(../fonts/Streetwear.otf) format('opentype');
+}
+
+body{
+
+	background-color: #0d0313 !important;
+}
+
+.header{
+
+	opacity: 80%;
+	top: 0px;
+	position: fixed;
+	background-color: #0d0313;
+	background-blend-mode: multiply;
+	padding-top: 0px;
+	font-size: 15pt;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	clip-path: polygon(100% 0% ,0% 0%,100% 4000%);
+}
+
+.header label{
+
+	font-family: customFont;
+	color: white;
+	margin-top: 2px;
+	font-size: 10px;
+	margin-left: 2%;
+}
+
+.header .sec-menu{
+
+	margin-top: 11px;
+	font-size: 10px;
+	float: right;
+	list-style: none;
+	margin-right: 2%;
+	margin-left: 1px;
+	padding-left: 1px;
+}
+
+.header .sec-menu li{
+
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.header .sec-menu li a {
+
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.4s;
+}
+@media (hover: hover) {
+	.header .sec-menu li a:hover {
+
+		color: #7554ad;
+	}
+}
+.hed-aft{
+
+ 	background-image: url("../images/mass.jpg");
+ 	background-position: center;
+ }
+
+.after-menu{
+
+	width: 100%;
+	height: 400px;
+	background-position: center;
+	text-align: center;
+}
+
+.after-menu img {
+
+	max-width: 70%;
+ 	max-height: 70%;
+ 	margin-top: 110px;
+}
+
+.aboutme-section{
+
+	height: 600px;
+	width: 100%;
+	background-color: #7554ad;
+	padding-top: 50px;
+	animation-name: grad;
+  	animation-duration: 10s;
+  	animation-delay: 2s;
+  	animation-iteration-count: infinite;
+ }
+
+.name{
+
+	padding-right: 10px;
+	font-size: 40px;
+	font-family: customFont;
+	margin-bottom: 10px;
+    color: white;
+}
+
+@keyframes grad{
+
+	0%{background-color: #7554ad;}
+	50%{background-color: #9c54ad;}
+	100%{background-color: #7554ad;}
+}
+
+.me{
+
+	text-align: center;
+}
+
+.me img{
+
+	max-width: 200px;
+	max-height: 200px;
+	margin-bottom: -40px;
+	-webkit-box-shadow: 1px 2px 37px 9px rgba(0,0,0,0.58); 
+	box-shadow: 1px 2px 37px 9px rgba(0,0,0,0.58);
+}
+
+.me-text{
+
+	float: right;
+	font-size: 6pt;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 4%;
+	margin-bottom: 8%;
+	max-height: 300px;
+	padding: 10px;
+	background-color: white;
+	color: #707374;
+	text-transform: uppercase;
+	-webkit-box-shadow: 1px 2px 37px 9px rgba(0,0,0,0.58); 
+	box-shadow: 1px 2px 37px 9px rgba(0,0,0,0.58);	
+}
+
+.contact{
+
+	margin-top: 30px;
+	width: 100%;
+	height: 1200px;
+	text-align: center;
+}
+
+.contact a{
+
+	color: black;
+}
+
+
+.contact a:hover {
+
+		color: #7554ad;
+	}
+
+
+.contact p{
+
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 80px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.phone{
+
+	padding: 20px;
+	background-color: white;
+	width: 200px;
+	height: 300px;
+  	margin: 0 auto;
+	margin-bottom: 40px;
+	-webkit-box-shadow: 1px 2px 37px 9px rgba(255,255,255,0.58); 
+	box-shadow: 1px 2px 37px 9px rgba(255,255,255,0.58);
+	cursor: pointer;
+}
+
+.message{
+
+	padding: 20px;
+	background-color: white;
+	width: 200px;
+	height: 300px;
+  	margin: 0 auto;
+	margin-bottom: 40px;
+	-webkit-box-shadow: 1px 2px 37px 9px rgba(255,255,255,0.58); 
+	box-shadow: 1px 2px 37px 9px rgba(255,255,255,0.58);
+	cursor: pointer;
+}
+
+.mail{
+
+	padding: 20px;
+	background-color: white;
+	width: 200px;
+	height: 300px;
+  	margin: 0 auto;
+	margin-bottom: 40px;
+	-webkit-box-shadow: 1px 2px 37px 9px rgba(255,255,255,0.58); 
+	box-shadow: 1px 2px 37px 9px rgba(255,255,255,0.58);
+	cursor: pointer;
+}
+
+.contact img{
+
+	padding-top: 30%;
+}
+
+.contact h2{
+	padding-top: 40px;
+	font-size: 20px;
+}
+
+.contact-text{
+
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+
+.section2{
+
+	height: 600px;
+	width: 100%;
+	margin-bottom: 10%;
+	background-color: #7554ad;
+	padding-top: 100px;
+	animation-name: grad;
+  	animation-duration: 10s;
+  	animation-delay: 2s;
+  	animation-iteration-count: infinite;
+}
+
+.footer hr{
+
+	color: white;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+/* ----------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 1227px){
+
+body{
+
+	background-color: #0d0313;
+}
+
+.hed-aft{
+
+ 	background-image: url("../images/mass.jpg");
+ 	background-position: center;
+ }
+
+.header label{
+
+	margin-top: 6px;
+	font-size: 20px;
+	margin-left: 2%;
+}
+
+.header .sec-menu{
+
+	margin-top: 3px;
+	font-size: 20px;
+	float: right;
+	list-style: none;
+	margin-right: 2%;
+}
+
+.header .sec-menu li a {
+
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+
+.aboutme-section{
+
+	height: 600px;
+	padding-top: 100px;
+	/*clip-path: polygon(100% -32% ,-186% 58%,100% 100%);*/
+}
+
+.name{
+
+	font-size: 90px;
+	margin-top: -40px;
+    color: white;
+}
+
+.after-menu img {
+
+	max-width: 50%;
+ 	max-height: 50%;
+	margin-top: 100px;
+}
+
+.after-menu{
+
+	width: 100%;
+	height: 700px;
+	background-position: center;
+	text-align: center;
+}
+
+.me{
+
+	float: left;
+	margin-left: 8%;
+	margin-top: 40px;
+}
+
+.me-text{
+
+	float: right;
+	font-size: 12pt;
+	margin-left: 0;
+	margin-right: 8%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+	width: 600px;
+	height: 400px;
+	max-height: none;
+	background-color: white;
+	color: #707374;
+	text-transform: uppercase;
+}
+
+.me img{
+
+	margin:	none;
+	max-width: none;
+	max-height: none;
+}
+
+.contact{
+
+	margin-top: 30px;
+	text-align: center;
+	width: 100%;
+	height: 700px;
+}
+
+.contact p{
+
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.phone{
+
+	padding: 20px;
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin-left: 10%;
+}
+
+.message{
+
+	padding: 20px;
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	float: right;
+	margin-right: 10%;
+}
+
+.mail{
+
+	padding: 20px;
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	display: table;
+  	margin: 0 auto;
+}
+
+.contact img{
+
+	padding-top: 30%;
+}
+
+.contact h2{
+	padding-top: 50px;
+	font-size: 30px;
+}
+
+.contact-text {
+
+	font-size: 30px;
+	padding-top: 20px;
+}
+.section2{
+
+  	/*clip-path: polygon(100% 10% ,-418% 100%,100% 100%);*/
+
+}
+
+}
+
