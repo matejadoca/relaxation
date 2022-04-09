@@ -17,6 +17,7 @@ body{
 
 .header{
 
+	text-align: center;
 	opacity: 80%;
 	top: 0px;
 	position: fixed;
@@ -34,18 +35,16 @@ body{
 
 	font-family: customFont;
 	color: white;
-	margin-top: 2px;
+	margin-top: -50px;
 	font-size: 10px;
-	margin-left: 2%;
 }
 
 .header .sec-menu{
-
-	margin-top: 8px;
-        font-size: 13px;
-	float: right;
+	display: none;
+	margin-top: -10px;
+    font-size: 13px;
 	list-style: none;
-	margin-right: 2%;
+	margin-right: 1px;
 	margin-left: 1px;
 	padding-left: 1px;
 }
@@ -53,7 +52,7 @@ body{
 .header .sec-menu li{
 
 	display: inline-block;
-	margin-left: 15px;
+	margin-left: 10px;
 }
 
 .header .sec-menu li a {
@@ -237,6 +236,11 @@ body{
 }
 
 
+.location iframe{
+	width: 100%;
+	height: 300px;
+}
+
 .section2{
 
 	height: 600px;
@@ -263,6 +267,20 @@ body{
 
 	background-color: #0d0313;
 }
+.header{
+
+	opacity: 80%;
+	top: 0px;
+	position: fixed;
+	background-color: #0d0313;
+	background-blend-mode: multiply;
+	padding-top: 0px;
+	font-size: 15pt;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	clip-path: polygon(100% 0% ,0% 0%,100% 4000%);
+}
 
 .hed-aft{
 
@@ -272,6 +290,7 @@ body{
 
 .header label{
 
+	float: left;
 	margin-top: 6px;
 	font-size: 20px;
 	margin-left: 2%;
@@ -279,6 +298,7 @@ body{
 
 .header .sec-menu{
 
+	display: inline-block;
 	margin-top: 3px;
 	font-size: 20px;
 	float: right;
@@ -423,4 +443,6 @@ body{
 }
 
 }
+
+
 
